@@ -1,5 +1,5 @@
 import { ActionIcon } from '@mantine/core';
-import { IconZap } from '@tabler/icons-react';
+import { IconBolt } from '@tabler/icons-react';
 
 interface FloatingFabProps {
   onClick: () => void;
@@ -23,7 +23,7 @@ export const FloatingFab = ({ onClick }: FloatingFabProps) => {
         boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)',
       }}
     >
-      <IconZap size={24} />
+      <IconBolt size={24} />
     </ActionIcon>
   );
 };
